@@ -1,1 +1,726 @@
+<!DOCTYPE html>
+<html lang="ru">
+   
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA_Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/0.css" rel="stylesheet">
+      <title>Kinobar</title>
 
+<body>
+   <div class="body">
+   <header>
+      <a href="main.html" class="logo">
+            <img src="img/kinobarLogo.png" alt="logo" width="176" height="30">
+      </a>
+
+      <div class="serch_box">
+         <form action="" name="searchform" method="post">
+            <input class="find_input" id="story" name="story" value="Введите название фильма" 
+             type="text" autocomplete="off"/>
+            <input title="Найти" alt="Найти" value="Начать поиск" type="submit" class="find_bottom"/>
+         </form>
+      </div>
+
+      <div class="login_box">
+         <div class="login_av">
+               <a href="#" class="show">
+                  <img src="img/Снимок экрана 2022-10-22 214911.png" alt="no request"/ width="50" height="50">
+               </a>
+         </div>
+         <div class="lb_bt">
+            <a href="#" class="lb_bt_show">Войти</a>
+            <div>
+               <a href="#" class="registration">Регистрация</a>
+            </div>
+         </div>
+      </div>
+
+   </header>
+   <nav>
+      <ul class="menu">
+            <li>
+               <a href="main.html" title="Смотреть онлайн">Главная</a></li>
+            <li>
+               <a href="#" title="Скоро в кино">Скоро в кино</a>
+            </li>
+            <li>
+               <a href="channel.html" title="Онлайн каналы">Онлайн каналы</a>
+            </li>
+            <li>
+               <a href="#" title="Радио онлайн">Радио</a>
+            </li>
+            <li>
+               <a href="section.html" title="Подборки кино">Подборки кино</a>
+            </li>
+            <li>
+               <a href="contacts.html">Контакты</a>
+            </li>
+            <li>
+               <a href="#" title="Правообладателям">Правообладателям</a>
+            </li>
+        </ul>
+   </nav>
+
+   <section class="content">
+      <div class="left_col">
+         <div class="cl_box">
+            <div class="new_movies">
+                  <img src="img/top.png" alt="top">
+                  <p>Новинки кино</p> 
+            </div>
+            <div class="cl_box_in">
+               <div class="carousel">
+                  <div class="carousel_in" id="carousel">
+                    
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+
+      <div class="slider-item swiper-slide">
+        <div class="slider-image-wrapper">
+          <img class="slider-image"
+            src="img/1.jpg.jpg"
+            alt="SliderImg">
+        </div>
+        <div class="slider-item-content">
+          <h1>«1899»</h1>
+          <p>Немецкий драматический телесериал с элементами мистики и ужасов. Создателями сериала являются Янтье Фризе и Баран бо Одар, известные по сериалу «Тьма».</p>
+        </div>
+      </div>
+
+      <div class="slider-item swiper-slide">
+        <div class="slider-image-wrapper">
+          <img class="slider-image"
+            src="img/7.jpg.jpg"
+            alt="SliderImg">
+        </div>
+        <div class="slider-item-content">
+          <h1>«Уэ́нсдэй»</h1>
+          <p>американский сериал о взрослении в жанре комедии ужасов со сверхъестественными элементами, основанный на персонаже Уэнсдэй Аддамс из Семейки Аддамс.</p>
+        </div>
+      </div>
+
+      <div class="slider-item swiper-slide">
+        <div class="slider-image-wrapper">
+          <img class="slider-image"
+            src="img/3.jpg.jpg"
+            alt="SliderImg">
+        </div>
+        <div class="slider-item-content">
+          <h1>«Пациент»</h1>
+          <p>американский психологический триллер, созданный и написанный Джоэлом Филдсом и Джо Вайсбергом, которые также выступают в качестве шоураннеров и исполнительных продюсеров вместе с Крисом Лонгом, Кэролайн Мур, Виктором Хсу и Стивом Кареллом.</p>
+        </div>
+      </div>
+
+      <div class="slider-item swiper-slide">
+        <div class="slider-image-wrapper">
+          <img class="slider-image"
+            src="img/6.jpg.jpg"
+            alt="SliderImg">
+        </div>
+        <div class="slider-item-content">
+          <h1>«Властели́н коле́ц: Ко́льца вла́сти»</h1>
+          <p>американский фэнтезийный телесериал, основанный на романе-эпопее Дж. Р. Р. Толкина «Властелин колец» и приложениях к нему, созданный Дж. Д. Пейном и Патриком Маккеем для стримингового сервиса Amazon Prime Video.</p>
+        </div>
+      </div>
+
+      <div class="slider-item swiper-slide">
+        <div class="slider-image-wrapper">
+          <img class="slider-image"
+            src="img/2.jpg.jpg"
+            alt="SliderImg">
+        </div>
+        <div class="slider-item-content">
+          <h1>«Семейки Клауса 3»</h1>
+          <p>Первый фильм вращается вокруг того, как Жюль, Нур и Сюзанна переживают потерю отца. Поначалу сварливый и угрюмый, Жюль находит ритм и начинает любить Рождество.</p>
+        </div>
+      </div>
+
+      <div class="slider-item swiper-slide">
+        <div class="slider-image-wrapper">
+          <img class="slider-image"
+            src="img/4.jpg.jpg"
+            alt="SliderImg">
+        </div>
+        <div class="slider-item-content">
+          <h1>«черная пантера ваканда навсегда»</h1>
+          <p>После смерти короля Т`Чаллы королева Рамонда, Шури, М`Баку, Окойе и Дора Милаж сражаются, чтобы защитить Ваканду от мировых держав.</p>
+        </div>
+      </div>
+
+      <div class="slider-item swiper-slide">
+        <div class="slider-image-wrapper">
+          <img class="slider-image"
+            src="img/5.jpg.jpg"
+            alt="SliderImg">
+        </div>
+        <div class="slider-item-content">
+          <h1>«Дом Драко́на»</h1>
+          <p>американский фэнтезийный телесериал, являющийся независимым приквелом «Игры престолов» и вторым сериалом во франшизе «Песнь льда и огня».</p>
+        </div>
+      </div>
+
+      <div class="slider-item swiper-slide">
+        <div class="slider-image-wrapper">
+          <img class="slider-image"
+            src="img/8.jpg.jpg"
+            alt="SliderImg">
+        </div>
+        <div class="slider-item-content">
+          <h1>«Кровавое Рождество»</h1>
+          <p>Тори, хозяйка магазина рок-музыки в небольшом городке, не любит Рождество. Пока девушка в компании своего сотрудника Робби планомерно напивается, роботизированный Санта из игрушечного магазина её друзей выходит из под контроля, берёт топор и начинает сокращать количество человеков.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider-buttons">
+      <button class="swiper-button-prev">Prev</button>
+      <button class="swiper-button-next">Next</button>
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js'></script>
+  <script src="./js/0.1.js"></script>
+                  </div>
+
+                <div class="carousel-indicator">
+                   <input type="button" class="c_prev" value="prev">
+                   <input type="button" class="c_next" value="next">
+                </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="film_of_day">
+            <div class="film_of_day_title">
+               <img src="img/day.png" alt="day" width="39" height="36">
+                  <p>Фильм дня</p> 
+            </div>
+            <div class="cl_box_in">
+               <div class="film_of_day_main">
+                  <div class="left">
+                     <a href="#">
+                        <img src="img/asdfghuj.png" alt="Вычислитель" width="141" height="201"></a>
+                  </div>
+                  <div class="right">
+                     <div class="title">
+                        <h2><a href="#">
+                           Вычислитель (2014) 
+                        </a></h2>
+                        <div class="quality">
+                           <p>HDRip</p>
+                        </div>
+                     </div>
+                     <div class="text">
+                        <ul>
+                           <li class="left_text">
+                              <span class="year_label">Год выхода:</span>2014
+                           </li>
+                           <li class="left_text">
+                              <span class="year_label">Жанр:</span>Фантастика, Российское кино, Фильмы 2014, Фильм дня, Фильмы про космос
+                           </li>
+                           <li class="director">
+                              <span class="year_label">Режиссер: </span> Дмитрий Грачев
+                           </li>
+                           <li class="roles">
+                              <span class="year_label">В ролях: </span> Евгений Миронов, Винни Джонс, Анна Чиповская, Иван Верховых, Владас Багдонас, Алексей Колубков, Никита Панфилов, Линда 
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="story">
+                        В фильме «Вычислитель» описывается история десяти заключенных, которые начали отбывать свое пожизненное изгнание. Им предстоит путь через болото. Группа разделяется на две части: пара...
+                     </div>
+                    
+                        <ul class="links">
+                           <li>26 июля 2015</li>
+                           <li>Комментариев: 7</li>
+                           <li>
+                              <button class="watch">Смотреть</button>
+                           </li>
+                        </ul>
+                  </div>
+               </div>
+            </div>
+         </div>   
+   
+         <section class="last_movies">
+            <div class="last_movies_title">
+               <p>Новинки</p>
+            </div>
+           
+            <!--        first -->
+            <div class="cl_box_in">
+               <div class="film_of_day_main">
+                  <div class="left">
+                     <a href="#">
+                        <img src="img/blackAdam1.png" alt="Black Adam" width="138" height="201"></a>
+                  </div>
+                  <div class="right">
+                     <div class="title">
+                           <h2><a href="#">
+                           Чёрный Адам (2022)
+                           </a></h2>
+                            <div class="quality">
+                             <p>TS</p>
+                            </div>
+                     </div>
+                     <div class="text">
+                        <ul>
+                           <li class="left_text">
+                              <span class="year_label">Год выхода:</span>2022
+                           </li>
+                           <li class="left_text">
+                              <span class="year_label">Жанр:</span> Боевики, Фантастика, Фэнтези, Новинки кино, Фильмы 2022, Фильмы про супергероев марвел и дс
+                           </li>
+                           <li class="director">
+                              <span class="year_label">Режиссер: </span> Жауме Кольет-Серра
+                           </li>
+                           <li class="roles">
+                              <span class="year_label">В ролях: </span> Дуэйн Джонсон, Сара Шахи, Пирс Броснан, Ной Сентинео, Элдис Ходж, Марван Кензари, Куинтесса Суинделл
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="story">
+                        Фантастический боевик «Черный Адам» - это история появления самого опасного и жесткого суперзлодея во всей вселенной. Много тысячелетий назад в Древнем Египте жил принц по имени Адам. Один...
+                     </div>
+                    
+                     <ul class="links">
+                        <li>26 июля 2015</li>
+                        <li>Комментариев: 7</li>
+                        <li>
+                           <button class="watch">Смотреть</button>
+                        </li>
+                     </ul>  
+                  </div>
+               </div>
+            </div>
+
+        <!--  second -->
+            <div class="cl_box_in">
+            <div class="film_of_day_main">
+               <div class="left">
+                  <a href="#">
+                     <img src="img/iwillfindyou.png" alt="Вычислитель" width="139" height="200">
+                  </a>
+               </div>
+               <div class="right">
+                  <div class="title">
+                     <h2>
+                        <a href="#">Я иду искать. Королевская игра (2022)  </a>
+                     </h2>
+                     <div class="quality">
+                        <p>WEB-DLRip</p>
+                     </div>
+                  </div>
+                     
+                  <div class="text">
+                     <ul>
+                        <li class="left_text">
+                           <span class="year_label">Год выхода:</span>2014
+                        </li>
+                        <li class="left_text">
+                           <span class="year_label">Жанр:</span>Боевики, Ужасы, Новинки кино, Фильмы 2022
+                        </li>
+                        <li class="director">
+                           <span class="year_label">Режиссер: </span>  Томми Боулдинг
+                        </li>
+                        <li class="roles">
+                           <span class="year_label">В ролях: </span> Саманта Бонд, Малачи Пуллар-Латчмен, Джеймс Лэнс, Ханна Трейлин, Ник Моран, Джеймс Фолкнер, Ларри 
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="story">
+                     Главные герои фильма «Я иду искать. Королевская игра» – двое молодых грабителей Чэз и Хьюго, которые идут на новое дело. Бандиты проникают в пустующее поместье, принадлежащее членам...
+                 </div>
+                   
+                 <ul class="links">
+                    <li>26 июля 2015</li>
+                    <li>Комментариев: 7</li>
+                    <li>
+                       <button class="watch">Смотреть</button>
+                    </li>
+                 </ul>
+              </div>
+           </div>
+           </div>
+
+    <!--     third -->
+           <div class="cl_box_in">
+              <div class="film_of_day_main">
+                 <div class="left">
+                    <a href="#">
+                       <img src="img/tickettoheaven.png" alt="heaven" width="140" height="200"></a>
+                 </div>
+                 <div class="right">
+                    <div class="title">
+                       <h2><a href="#">
+                          Билет в рай (2022) 
+                       </a></h2>
+                       <div class="quality">
+                          <p>WEB-DLRip</p>
+                       </div>
+                    </div>
+                    <div class="text">
+                       <ul>
+                          <li class="left_text">
+                             <span class="year_label">Год выхода:</span>2014
+                          </li>
+                          <li class="left_text">
+                             <span class="year_label">Жанр:</span>Комедии, Мелодрамы, Новинки кино, Фильмы 2022
+                          </li>
+                          <li class="director">
+                             <span class="year_label">Режиссер: </span> Ол Паркер
+                          </li>
+                          <li class="roles">
+                             <span class="year_label">В ролях: </span> Кейтлин Дивер, Джулия Робертс, Джордж Клуни, Билли Лурд, Лукас Браво, Senayt Mebrahtu, Talha Senturk
+                          </li>
+                       </ul>
+                    </div>
+                    <div class="story">
+                      Главные герои комедийного фильма «Билет в рай» – бывшие супруги, которые развелись четверть века назад и теперь мечтают только об одном - чтобы их дочь Лили не допустила таких же ошибок....    
+                    </div>
+                   
+                    <ul class="links">
+                       <li>26 июля 2015</li>
+                       <li>Комментариев: 7</li>
+                       <li>
+                          <button class="watch">Смотреть</button>
+                       </li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+           
+           <!--         fourth -->
+           <div class="cl_box_in">
+            <div class="film_of_day_main">
+               <div class="left">
+                  <a href="#">
+                     <img src="img/dragons.png" alt="dragon" width="138" height="208"></a>
+               </div>
+               <div class="right">
+                  <div class="title">
+                     <h2><a href="#">
+                        Игра Престолов: Дом дракона 1 сезон 1-9,10 серия
+                     </a></h2>
+                     <div class="quality">
+                        <p>HDRip</p>
+                     </div>
+                  </div>
+                  <div class="text">
+                     <ul>
+                        <li class="left_text">
+                           <span class="year_label">Год выхода:</span>2014
+                        </li>
+                        <li class="left_text">
+                           <span class="year_label">Жанр:</span>Сериалы, Мелодрамы, Драмы, Боевики, Приключения, Фэнтези
+                        </li>
+                        <li class="director">
+                           <span class="year_label">Режиссер: </span> Клер Килнер, Гита Патель, Мигель Сапочник
+                        </li>
+                        <li class="roles">
+                           <span class="year_label">В ролях: </span> Милли Олкок, Ив Бест, Эмили Кэри, Пэдди Консидайн, Оливия Кук, Райан Корр, Эмма Д'Арси, Фабьен 
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="story">
+                     Действие сериала «Дом дракона» разворачивается за двести лет до событий «Игры престолов». В центре сюжета окажутся представители двух ветвей дома Таргариенов, между которыми разразился...
+                  </div>
+                 
+                  <ul class="links">
+                     <li>26 июля 2015</li>
+                     <li>Комментариев: 7</li>
+                     <li>
+                        <button class="watch">Смотреть</button>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+           
+         <!--  fifth -->
+         <div class="cl_box_in">
+            <div class="film_of_day_main">
+               <div class="left">
+                  <a href="#">
+                     <img src="img/dontworry.png" alt="darling" width="141" height="200"></a>
+               </div>
+               <div class="right">
+                  <div class="title">
+                     <h2><a href="#">
+                        Не беспокойся, дорогая / Не волнуйся, солнышко 
+                     </a></h2>
+                     <div class="quality">
+                        <p>HDRip</p>
+                     </div>
+                  </div>
+                  <div class="text">
+                     <ul>
+                        <li class="left_text">
+                           <span class="year_label">Год выхода:</span>2022
+                        </li>
+                        <li class="left_text">
+                           <span class="year_label">Жанр:</span>Триллеры, Новинки кино, Фильмы 2022
+                        </li>
+                        <li class="director">
+                           <span class="year_label">Режиссер: </span> Оливия Уайлд
+                        </li>
+                        <li class="roles">
+                           <span class="year_label">В ролях: </span> Крис Пайн, Флоренс Пью, Оливия Уайлд, Джемма Чан, Гарри Стайлс, Ник Кролл, Дуглас Смит, Тимоти С. 
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="story">
+                     События остросюжетного триллера «Не волнуйся, солнышко» разворачиваются в 50-е годы прошлого века в небольшом закрытом американском городке. Подобные населенные пункты тех времен носили... 
+                  </div>
+                 
+                  <ul class="links">
+                     <li>26 июля 2015</li>
+                     <li>Комментариев: 7</li>
+                     <li>
+                        <button class="watch">Смотреть</button>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+     <!--  sixth -->
+         <div class="cl_box_in">
+            <div class="film_of_day_main">
+               <div class="left">
+                  <a href="#">
+                     <img src="img/revenge.png" alt="revenge" width="140" height="210"></a>
+               </div>
+               <div class="right">
+                  <div class="title">
+                     <h2><a href="#">Стрела возмездия (2022) 
+                     </a></h2>
+                     <div class="quality">
+                        <p>HDRip</p>
+                     </div>
+                  </div>
+                  <div class="text">
+                     <ul>
+                        <li class="left_text">
+                           <span class="year_label">Год выхода:</span>2022
+                        </li>
+                        <li class="left_text">
+                           <span class="year_label">Жанр:</span>Боевики, Триллеры, Новинки кино, Фильмы 2022
+                        </li>
+                        <li class="director">
+                           <span class="year_label">Режиссер: </span> Джон В. Сото
+                        </li>
+                        <li class="roles">
+                           <span class="year_label">В ролях: </span> 
+                              Джиллиан Алекси, Люк Форд, Александра Нелл, Priscilla-Anne Jacob, Ник Эткинсон, Alex Fleri, Том О'Салливан, Victoria Fleri, Райан
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="story">
+                     Главные герои фильма «Стрела возмездия» – состоятельные американцы Кейт и Эш Мэтьюз, которые переживают сложный период в отношениях, что, в свою очередь, негативно сказывается на поведении...
+                  </div>
+                 
+                  <ul class="links">
+                     <li>26 июля 2015</li>
+                     <li>Комментариев: 7</li>
+                     <li>
+                        <button class="watch">Смотреть</button>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div class="navigation_footer">
+            <div class="nav_left">
+               <span>Назад</span>
+            </div>
+
+            <div class="numbers">
+            <span>1</span>
+
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="#">9</a>
+            <a href="#">10</a>
+            <a href="#">...</a>
+            <a href="#">1796</a>
+            </div>
+
+            <div class="nav_right">
+               <a href="#">Вперед</a>
+            </div>
+         </div>
+
+         <div class="footer">
+            <center>
+               <h1> Смотреть онлайн фильмы в хорошем качестве
+               </h1>
+            </center>
+            <p>Индустрия кино может похвастаться миллионами поклонников и зрителей, в результате чего фильмы давно превратились в определенный продукт. На новинках кино бизнесмены и кинотеатры зарабатывают сотни миллиарды долларов, а зрители тратят на это времяпровождение множество средств. </p>
+            <br>
+            <p>Но сегодня перед Вами замечательный интернет-портал, который позволит не тратить собственные деньги и наслаждаться просмотром фильмов в режиме онлайн! Неужели не стоит устроить кинотеатр в домашних условиях?</p>
+            <br>
+            <p>Все фильмы можно посмотреть онлайн, а качество каждого кино всегда поразит надежной детализацией и качеством, достойным самого требовательного зрителя! Если Вы устали от низкосортных копий и записей из кинотеатров - посетите каталог данного сайта и найдите фильм по душе! </p>
+            <br>
+            <p>Стоит отметить, что на сайте можно увидеть фильмы разных жанров, что позволит не скучать никому - и любителям фэнтези, и ценителям комедий, и тем, кто обожает вестерны или современные боевики. Только здесь Вы найдете и классику кино, и ультрасовременные фильмы последних лет!</p>
+         </div>
+
+</section>
+</div>
+
+      <!-- -----right------- -->
+   <div class="right_col"> 
+
+      <div class="firstRow"> 
+
+         <div class="rows_header"> 
+            <div class="rows_icon"> 
+               <div class="rows_title">Категории
+               </div>
+            </div> 
+         </div> 
+
+         <div class="rows_content">
+            <hr> 
+            <select class="select"> 
+               <option>--Выберите год--</option> 
+               <option value="1">2013</option>
+               <option value="1">2014</option>
+               <option value="1">2015</option>
+               <option value="1">2016</option>
+               <option value="1">2017</option>
+               <option value="1">2018</option>
+               <option value="1">2019</option>
+               
+            </select> 
+            <hr> 
+              
+            <div class="genre"> 
+               <a href="#" class="blue">Новинки кино</a> 
+               <a href="#" class="red">Сериалы</a> 
+               <a href="#" class="green">Сериалы с Каз.ТВ</a> 
+               <a href="#" class="green">ТВ-шоу, передачи</a> 
+               <a href="#" class="blue">Азиатские сериалы</a> 
+               <a href="#" class="red">Турецкие сериалы</a> 
+               <a href="#" class="gray">Комедии</a> 
+               <a href="#" class="gray">Мелодрамы</a> 
+               <a href="#" class="gray">Драмы</a> 
+               <a href="#" class="gray">Боевики</a> 
+               <a href="#" class="gray">Приключения</a> 
+               <a href="#" class="gray">Триллеры</a> 
+               <a href="#" class="gray">Мультфильмы</a> 
+               <a href="#" class="gray">Фантастика</a> 
+               <a href="#" class="gray">Семейный</a> 
+               <a href="#" class="gray">Биография</a> 
+               <a href="#" class="gray">Мюзикл</a> 
+               <a href="#" class="gray">Фэнтези</a> 
+               <a href="#" class="gray">Документальные</a> 
+               <a href="#" class="gray">Ужасы</a> 
+               <a href="#" class="gray">Детектив</a> 
+               <a href="#" class="gray">Мистика</a> 
+               <a href="#" class="gray">Вестерны</a> 
+               <a href="#" class="gray">Военный</a> 
+               <a href="#" class="gray">История</a> 
+               <a href="#" class="gray">Криминал</a> 
+               <a href="#" class="gray">Спорт</a> 
+               <a href="#" class="gray">Аниме</a> 
+               <a href="#" class="gray">На иностранном языке</a> 
+               <a href="#" class="gray">Гоблинский Перевод</a> 
+               <a href="#" class="gray">Казахстанское кино</a> 
+               <a href="#" class="gray">Российское кино</a> 
+            </div> 
+
+         </div> 
+
+         <div class="expect"> 
+            <div class="expect_icon"> 
+               <div class="expect_title">Ожидаем</div> 
+            </div> 
+         </div> 
+
+         <div class="rows_content"> 
+            <div class="firstBoard"> 
+               <a href="#"> 
+                 <img src="../kinoBar.proj/img/expect-film_pic.jpg"> 
+               </a> 
+            </div> 
+
+            <div class="firstBoard"> 
+               <a href="#"> 
+                 <img src="../kinoBar.proj/img/expect-film2_pic.jpg"> 
+               </a> 
+            </div> 
+
+         </div> 
+
+         <div class="film_content"> 
+
+            <div class="film"> 
+               <div class="film_title">ТОП Фильмов</div> 
+            </div> 
+
+            <div class="rows_content"> 
+               <div class="films"> 
+                  <a href="#">Вышка (2022)</a> 
+                  <a href="#">Жизнь по вызову 1 сезон 1-10 серия</a> 
+                  <a href="#">Игра Престолов: Дом дракона 1 сезон 1-9,10 серия</a> 
+                  <a href="#">Битва экстрасенсов 23 сезон 1-7 выпуск</a> 
+                  <a href="#">Властелин колец: Кольца власти 1 сезон 1-8 серия</a> 
+                  <a href="#">Быстрее пули (2022)</a> 
+                  <a href="#">Художник 1 сезон 1-14 серия</a> 
+                  <a href="#">Реальные пацаны 13 сезон 1-20,21 серия</a>
+                  <a href="#">Звезды в Африке 3 сезон 1-7 выпуск</a>
+                  </div> 
+              </div> 
+            </div> 
+ 
+            <div class="section_content"> 
+               <div class="section"> 
+                  <div class="film_title">Подборки кино</div> 
+               </div> 
+ 
+               <div class="rows_content"> 
+                  <a href="#" class="banner"> 
+                     <img src="../kinoBar.proj/img/banner_film_3.png"> 
+                     <span class="banner_title">Фильмы про танцы и музыку</span> 
+                  </a> 
+               </div> 
+            </div> 
+ 
+            <div class="new_content"> 
+               <div class="section"> 
+                  <div class="film_title">Новые сериалы</div> 
+               </div> 
+            </div> 
+ 
+            <div class="rows_content"> 
+               <div class="films"> 
+                  <a href="#">Звоните в полицию! 1 сезон 1-4 серия </a> 
+                  <a href="#">Тётя Марта 1 сезон 1-14 серия </a> 
+                  <a href="#">Шантарам 1 сезон 1-4 серия </a> 
+                  <a href="#">Уравнитель 3 сезон 1-4 серия </a> 
+                  <a href="#">Новичок / Новобранец 5 сезон 1-5 серия </a> 
+                  <a href="#">Морская полиция: Лос-Анджелес 14 сезон 1-3 серия </a> 
+                  <a href="#">Девушки с Макаровым 3 сезон 1,2 серия </a> 
+                  <a href="#">Наш спецназ 1 сезон 1-20 серия </a> 
+                  <a href="#">Симпсоны 34 сезон 1-5 серия </a> 
+                  <a href="#">Призраки прошлого 2 сезон 1-6 серия </a> 
+               </div> 
+            </div> 
+         </div> 
+      </div>
+   </section>
+  </div>
+ </body>
+</html>
