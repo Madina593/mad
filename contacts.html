@@ -1,1 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+   
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA_Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/contacts.css" rel="stylesheet">
+      <title>KinobarContacts</title>
+   </head>
 
+<body>
+   <div class="body">
+   <header>
+      <a href="main.html" class="logo">
+            <img src="img/kinobarLogo.png" alt="logo" width="176" height="30">
+      </a>
+
+      <div class="serch_box">
+         <form action="" name="searchform" method="post">
+            <input class="find_input" id="story" name="story" value="Введите название фильма" 
+             type="text" autocomplete="off"/>
+            <input title="Найти" alt="Найти" value="Начать поиск" type="submit" class="find_bottom"/>
+         </form>
+      </div>
+
+      <div class="login_box">
+         <div class="login_av">
+               <a href="#" class="show">
+                  <img src="img/Снимок экрана 2022-10-22 214911.png" alt="no request" width="50" height="50" />
+               </a>
+         </div>
+         <div class="lb_bt">
+            <a href="#" class="lb_bt_show">Войти</a>
+            <div>
+               <a href="#" class="registration">Регистрация</a>
+            </div>
+         </div>
+      </div>
+
+   </header>
+   <nav>
+      <ul class="menu">
+            <li>
+               <a href="main.html" title="Смотреть онлайн">Главная</a></li>
+            <li>
+               <a href="#" title="Скоро в кино">Скоро в кино</a>
+            </li>
+            <li>
+               <a href="channel.html" title="Онлайн каналы">Онлайн каналы</a>
+            </li>
+            <li>
+               <a href="#" title="Радио онлайн">Радио</a>
+            </li>
+            <li>
+               <a href="section.html" title="Подборки кино">Подборки кино</a>
+            </li>
+            <li>
+               <a href="contacts.html">Контакты</a>
+            </li>
+            <li>
+               <a href="#" title="Правообладателям">Правообладателям</a>
+            </li>
+        </ul>
+   </nav>
+
+
+   <div class="content">
+      <div class="left_col">
+         <div class="content_title">
+            <p>Обратная связь</p>
+         </div>
+         <form id="sendmail" method="post" name="sendmail" >
+            <fieldset>
+               <label for="name"><span>Ваше имя:</span>
+                  <input id="name" name="name" type="text" required />
+               </label>
+
+               <label for="email">
+                  <span>Ваш E-Mail:</span>
+                  <input id="email" name="email" type="email" required />
+               </label>
+       
+               <label for="emailTo">
+                  <span>Кому:</span>
+                  <select id="emailTo" name="emailTo">
+                     <option value="">Kinobar (Администраторы)</option>
+                     <option value="1">BarMen (Главные редакторы)</option>
+                  </select>
+               </label>
+               <label for="theme">
+                  <span>Тема:</span>
+                  <input type="text">
+               </label>
+               <label for="message">
+                  <span>Сообщение:</span>
+               <textarea name="message" id="message">
+              
+               </textarea>
+               </label>
+
+               <div class="code">
+                  <span> Введите код:</span>
+                  <img src="img/code.png" alt="off" width="113" height="48">
+                  <br>
+                  <a href="#">обновить, если не виден код</a>
+                  <br>
+                  <input type="text" class="abc">
+               </div>
+               <div class="submit">
+                  <input type="submit" value="Отправить" class="submit_button">
+               </div>
+            </fieldset>
+         </form>
+      
+      </div>
+      <div class="right_col"> 
+ 
+         <div class="firstRow"> 
+ 
+            <div class="rows_header"> 
+               <div class="rows_icon"> 
+                  <div class="rows_title">Категории
+                  </div>
+</div> 
+            </div> 
+ 
+            <div class="rows_content">
+               <hr> 
+               <select class="select"> 
+                  <option>--Выберите год--</option> 
+                  <option value="1">2013</option>
+                  <option value="1">2014</option>
+                  <option value="1">2015</option>
+                  <option value="1">2016</option>
+                  <option value="1">2017</option>
+                  <option value="1">2018</option>
+                  <option value="1">2019</option>
+                  
+               </select> 
+               <hr> 
+                 
+               <div class="genre"> 
+                  <a href="#" class="blue">Новинки кино</a> 
+                  <a href="#" class="red">Сериалы</a> 
+                  <a href="#" class="green">Сериалы с Каз.ТВ</a> 
+                  <a href="#" class="green">ТВ-шоу, передачи</a> 
+                  <a href="#" class="blue">Азиатские сериалы</a> 
+                  <a href="#" class="red">Турецкие сериалы</a> 
+                  <a href="#" class="gray">Комедии</a> 
+                  <a href="#" class="gray">Мелодрамы</a> 
+                  <a href="#" class="gray">Драмы</a> 
+                  <a href="#" class="gray">Боевики</a> 
+                  <a href="#" class="gray">Приключения</a> 
+                  <a href="#" class="gray">Триллеры</a> 
+                  <a href="#" class="gray">Мультфильмы</a> 
+                  <a href="#" class="gray">Фантастика</a> 
+                  <a href="#" class="gray">Семейный</a> 
+                  <a href="#" class="gray">Биография</a> 
+                  <a href="#" class="gray">Мюзикл</a> 
+                  <a href="#" class="gray">Фэнтези</a> 
+                  <a href="#" class="gray">Документальные</a> 
+                  <a href="#" class="gray">Ужасы</a> 
+                  <a href="#" class="gray">Детектив</a> 
+                  <a href="#" class="gray">Мистика</a> 
+                  <a href="#" class="gray">Вестерны</a> 
+                  <a href="#" class="gray">Военный</a> 
+                  <a href="#" class="gray">История</a> 
+                  <a href="#" class="gray">Криминал</a> 
+                  <a href="#" class="gray">Спорт</a> 
+                  <a href="#" class="gray">Аниме</a> 
+                  <a href="#" class="gray">На иностранном языке</a> 
+                  <a href="#" class="gray">Гоблинский Перевод</a> 
+                  <a href="#" class="gray">Казахстанское кино</a> 
+                  <a href="#" class="gray">Российское кино</a> 
+               </div> 
+ 
+            </div> 
+ 
+            <div class="expect"> 
+               <div class="expect_icon"> 
+                  <div class="expect_title">Ожидаем</div> 
+               </div> 
+            </div> 
+ 
+            <div class="rows_content"> 
+               <div class="firstBoard"> 
+                  <a href="#"> 
+                    <img src="../kinoBar.proj/img/expect-film_pic.jpg" width="" height=""> 
+                  </a> 
+               </div> 
+ 
+               <div class="firstBoard"> 
+                  <a href="#"> 
+                    <img src="../kinoBar.proj/img/expect-film2_pic.jpg" width="" height=""> 
+                  </a> 
+               </div> 
+ 
+            </div> 
+ 
+            <div class="film_content"> 
+ 
+               <div class="film"> 
+                  <div class="film_title">ТОП Фильмов</div> 
+               </div> 
+ 
+               <div class="rows_content"> 
+                  <div class="films"> 
+                     <a href="#">Вышка (2022)</a> 
+                     <a href="#">Жизнь по вызову 1 сезон 1-10 серия</a> 
+                     <a href="#">Игра Престолов: Дом дракона 1 сезон 1-9,10 серия</a> 
+                     <a href="#">Битва экстрасенсов 23 сезон 1-7 выпуск</a> 
+                     <a href="#">Властелин колец: Кольца власти 1 сезон 1-8 серия</a> 
+                     <a href="#">Быстрее пули (2022)</a> 
+                     <a href="#">Художник 1 сезон 1-14 серия</a>
+<a href="#">Реальные пацаны 13 сезон 1-20,21 серия</a> 
+                     <a href="#">Звезды в Африке 3 сезон 1-7 выпуск</a>
+                  </div> 
+              </div> 
+ 
+            </div> 
+ 
+            <div class="section_content"> 
+               <div class="section"> 
+                  <div class="film_title">Подборки кино</div> 
+               </div> 
+ 
+               <div class="rows_content"> 
+                  <a href="#" class="banner"> 
+                     <img src="../kinoBar.proj/img/banner_film_3.png" width="" height=""> 
+                     <span class="banner_title">Фильмы про танцы и музыку</span> 
+                  </a> 
+               </div> 
+ 
+            </div> 
+ 
+            <div class="new_content"> 
+               <div class="section"> 
+                  <div class="film_title">Новые сериалы</div> 
+               </div> 
+            </div> 
+ 
+            <div class="rows_content"> 
+               <div class="films"> 
+                  <a href="#">Звоните в полицию! 1 сезон 1-4 серия </a> 
+                  <a href="#">Тётя Марта 1 сезон 1-14 серия </a> 
+                  <a href="#">Шантарам 1 сезон 1-4 серия </a> 
+                  <a href="#">Уравнитель 3 сезон 1-4 серия </a> 
+                  <a href="#">Новичок / Новобранец 5 сезон 1-5 серия </a> 
+                  <a href="#">Морская полиция: Лос-Анджелес 14 сезон 1-3 серия </a> 
+                  <a href="#">Девушки с Макаровым 3 сезон 1,2 серия </a> 
+                  <a href="#">Наш спецназ 1 сезон 1-20 серия </a> 
+                  <a href="#">Симпсоны 34 сезон 1-5 серия </a> 
+                  <a href="#">Призраки прошлого 2 сезон 1-6 серия </a> 
+               </div> 
+            </div> 
+               
+         </div>
+      </div>
+   </div>
+
+      
+         
+
+   
+   </div>
+</body>
+
+</html>
