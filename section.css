@@ -58,3 +58,81 @@
 .paragraph{
     font-size: 11px;
 }
+
+
+
+.content {
+    background-color: white;
+    padding-top: 15px;
+  
+  }
+  
+  
+  /************left_col**********/
+  .left_col {
+    width: 70%;
+    float: left;
+    background-color: var(--bg-color);
+   
+  }
+  
+  /* new_movies*/
+  .new_movies {
+    background-color: #eaeaea;
+    display: flex;
+    padding-left: 17px;
+    position: relative;
+    border-bottom: 2px #ff751a solid;
+  }
+  
+  .new_movies p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 36px;
+    background-color: #eaeaea;
+    padding-left: 10px;
+  }
+  
+  /*cl_box_in  for all*/
+  
+  .cl_box_in{
+    padding: 15px 0px;
+    margin-bottom: 5px;
+  }
+  
+  /*carousel*/
+  
+  .carousel{
+    position: relative;
+  }
+  
+  .carousel_in{
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #carousel {
+    margin: 0 auto;
+    width: 560px;
+    height: 184px;
+    overflow: hidden;
+    margin-left: 18px;
+  
+  }
+  
+  /*movie-container*/
+  .movie-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+  }
+  .movie-container img{
+  
+      position: relative;
+      height: 184px;
+      width: 124px;
+      margin: 0 5px 10px 5px;
+      border: solid 1px #5E5E5E;
+      padding: 1px;
+  }
