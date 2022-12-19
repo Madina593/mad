@@ -326,3 +326,14 @@ footer{
 footer a{
   color: rgb(255, 255, 255);
 }
+.topnav span a{
+  color:#f2f6ff;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #0b0b0b;
+    font-weight: bold;
+}
+.topnav span a:hover{
+  background-color: black;
+    color: rgb(255 117 26);
+}
