@@ -461,3 +461,14 @@
     max-width: 100%;
     display: block;
   }
+  .menu li span a{
+    color:#f2f6ff;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #0b0b0b;
+    font-weight: bold;
+  }
+  .menu li span a:hover{
+    background-color: var(--text-color);
+    color: var(--main-color);
+  }
